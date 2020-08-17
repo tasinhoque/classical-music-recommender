@@ -1,73 +1,73 @@
 [
-  { "composer": "Antonio Vivaldi", "piece": "The Four Seasons" },
-  { "composer": "Antonio Vivaldi", "piece": "Sonata for Two Violins" },
-  { "composer": "Antonio Vivaldi", "piece": "Concerto for Four Violins" },
+  { "composer": "Antonio Vivaldi", "name": "The Four Seasons" },
+  { "composer": "Antonio Vivaldi", "name": "Sonata for Two Violins" },
+  { "composer": "Antonio Vivaldi", "name": "Concerto for Four Violins" },
   {
     "composer": "Johann Sebastian Bach",
-    "piece": "Concerto for Two Violins in D minor"
+    "name": "Concerto for Two Violins in D minor"
   },
-  { "composer": "Joseph Haydn", "piece": "Violin Concerto in G major" },
+  { "composer": "Joseph Haydn", "name": "Violin Concerto in G major" },
   {
     "composer": "Wolfgang Amadeus Mozart",
-    "piece": "Violin Concerto no. 5 in A major (Turkish)"
+    "name": "Violin Concerto no. 5 in A major (Turkish)"
   },
   {
     "composer": "Wolfgang Amadeus Mozart",
-    "piece": "Sinfonia Concertante (concerto for violin and viola) in E-flat major"
+    "name": "Sinfonia Concertante (concerto for violin and viola) in E-flat major"
   },
-  { "composer": "Ludwig van Beethoven", "piece": "Violin Concerto in D major" },
+  { "composer": "Ludwig van Beethoven", "name": "Violin Concerto in D major" },
   {
     "composer": "Ludwig van Beethoven",
-    "piece": "Sonata for Violin and Piano no. 9 in A major (Kreutzer)"
-  },
-  {
-    "composer": "Ludwig van Beethoven",
-    "piece": "Trio in B-flat major for Clarinet (or Violin), Cello, and Piano"
+    "name": "Sonata for Violin and Piano no. 9 in A major (Kreutzer)"
   },
   {
     "composer": "Ludwig van Beethoven",
-    "piece": "String Quartets opus 59, no. 1-3 (the Razumovsky Quartets)"
+    "name": "Trio in B-flat major for Clarinet (or Violin), Cello, and Piano"
   },
-  { "composer": "Felix Mendelssohn", "piece": "Violin Concerto in E minor" },
+  {
+    "composer": "Ludwig van Beethoven",
+    "name": "String Quartets opus 59, no. 1-3 (the Razumovsky Quartets)"
+  },
+  { "composer": "Felix Mendelssohn", "name": "Violin Concerto in E minor" },
   {
     "composer": "Felix Mendelssohn",
-    "piece": "Octet for Strings in E-flat major"
+    "name": "Octet for Strings in E-flat major"
   },
-  { "composer": "Johannes Brahms", "piece": "Violin Concerto in D major" },
+  { "composer": "Johannes Brahms", "name": "Violin Concerto in D major" },
   {
     "composer": "Johannes Brahms",
-    "piece": "Sonata for Violin and Piano no. 1 in G major"
+    "name": "Sonata for Violin and Piano no. 1 in G major"
   },
   {
     "composer": "Niccolò Paganini",
-    "piece": "Violin Concerto no. 1 in D major"
+    "name": "Violin Concerto no. 1 in D major"
   },
   {
     "composer": "Niccolò Paganini",
-    "piece": "Violin Concerto no. 2 in B minor"
+    "name": "Violin Concerto no. 2 in B minor"
   },
-  { "composer": "Niccolò Paganini", "piece": "24 Caprices for Solo Violin" },
+  { "composer": "Niccolò Paganini", "name": "24 Caprices for Solo Violin" },
   {
     "composer": "Antonín Dvořák",
-    "piece": "Romance for Violin and Orchestra in F minor"
+    "name": "Romance for Violin and Orchestra in F minor"
   },
-  { "composer": "Antonín Dvořák", "piece": "Serenade for Strings in E major" },
+  { "composer": "Antonín Dvořák", "name": "Serenade for Strings in E major" },
   {
     "composer": "Antonín Dvořák",
-    "piece": "String Quartet no. 6 in F major (American)"
+    "name": "String Quartet no. 6 in F major (American)"
   },
-  { "composer": "Jean Sibelius", "piece": "Violin Concerto in D major" },
+  { "composer": "Jean Sibelius", "name": "Violin Concerto in D major" },
   {
     "composer": "Pyotr Ilyich Tchaikovsky",
-    "piece": "Violin Concerto in D major"
+    "name": "Violin Concerto in D major"
   },
-  { "composer": "Dmitri Shostakovich", "piece": "String Quartets no. 3" },
-  { "composer": "Dmitri Shostakovich", "piece": "String Quartets no. 8" },
-  { "composer": "Alban Berg", "piece": "Violin Concerto" },
-  { "composer": "Max Bruch", "piece": "Violin Concerto no. 1 in G minor" },
-  { "composer": "Camille Saint-Saëns", "piece": "Danse macabre" },
+  { "composer": "Dmitri Shostakovich", "name": "String Quartets no. 3" },
+  { "composer": "Dmitri Shostakovich", "name": "String Quartets no. 8" },
+  { "composer": "Alban Berg", "name": "Violin Concerto" },
+  { "composer": "Max Bruch", "name": "Violin Concerto no. 1 in G minor" },
+  { "composer": "Camille Saint-Saëns", "name": "Danse macabre" },
   {
     "composer": "Camille Saint-Saëns",
-    "piece": "Introduction and Rondo Capricciosos"
+    "name": "Introduction and Rondo Capricciosos"
   }
 ]

@@ -1,99 +1,99 @@
 [
   {
     "composer": "Wolfgang Amadeus Mozart",
-    "piece": "Piano Concerto in C minor"
+    "name": "Piano Concerto in C minor"
   },
   {
     "composer": "Wolfgang Amadeus Mozart",
-    "piece": "Piano Concerto no. 21 in C major"
+    "name": "Piano Concerto no. 21 in C major"
   },
   {
     "composer": "Wolfgang Amadeus Mozart",
-    "piece": "Piano Concerto no. 22 in E-flat major"
+    "name": "Piano Concerto no. 22 in E-flat major"
   },
   {
     "composer": "Wolfgang Amadeus Mozart",
-    "piece": "Piano Concerto no. 24 in C minor"
+    "name": "Piano Concerto no. 24 in C minor"
   },
-  { "composer": "Wolfgang Amadeus Mozart", "piece": "Piano Sonata in G major" },
-  { "composer": "Wolfgang Amadeus Mozart", "piece": "Piano Sonata in F major" },
-  { "composer": "Wolfgang Amadeus Mozart", "piece": "Piano Sonata in C major" },
+  { "composer": "Wolfgang Amadeus Mozart", "name": "Piano Sonata in G major" },
+  { "composer": "Wolfgang Amadeus Mozart", "name": "Piano Sonata in F major" },
+  { "composer": "Wolfgang Amadeus Mozart", "name": "Piano Sonata in C major" },
   {
     "composer": "Ludwig van Beethoven",
-    "piece": "Piano Sonata no. 14 in C-sharp minor (Moonlight)"
-  },
-  {
-    "composer": "Ludwig van Beethoven",
-    "piece": "Piano Sonata no. 8 in C minor (Pathetique)"
+    "name": "Piano Sonata no. 14 in C-sharp minor (Moonlight)"
   },
   {
     "composer": "Ludwig van Beethoven",
-    "piece": "Piano Sonata no. 23 in F minor (Appassionata)"
+    "name": "Piano Sonata no. 8 in C minor (Pathetique)"
   },
   {
     "composer": "Ludwig van Beethoven",
-    "piece": "Sonata in F major for horn and piano"
+    "name": "Piano Sonata no. 23 in F minor (Appassionata)"
   },
   {
     "composer": "Ludwig van Beethoven",
-    "piece": "Sonata for Violin and Piano no. 9 in A major (Kreutzer)"
+    "name": "Sonata in F major for horn and piano"
   },
   {
     "composer": "Ludwig van Beethoven",
-    "piece": "Trio in B-flat major for Clarinet (or Violin), Cello, and Piano"
+    "name": "Sonata for Violin and Piano no. 9 in A major (Kreutzer)"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "name": "Trio in B-flat major for Clarinet (or Violin), Cello, and Piano"
   },
   {
     "composer": "Franz Schubert",
-    "piece": "The Shepherd on the Rock, song cycle for soprano, clarinet, and piano"
+    "name": "The Shepherd on the Rock, song cycle for soprano, clarinet, and piano"
   },
   {
     "composer": "Felix Mendelssohn",
-    "piece": "Piano Concerto no. 1 in G minor"
+    "name": "Piano Concerto no. 1 in G minor"
   },
-  { "composer": "Frédéric Chopin", "piece": "24 Preludes" },
-  { "composer": "Frédéric Chopin", "piece": "Ballade no. 4 in F minor" },
-  { "composer": "Frédéric Chopin", "piece": "Piano Concerto no. 1 in E minor" },
-  { "composer": "Frédéric Chopin", "piece": "Piano Concerto no. 2 in F minor" },
-  { "composer": "Robert Schumann", "piece": "Piano Concerto in A minor" },
+  { "composer": "Frédéric Chopin", "name": "24 Preludes" },
+  { "composer": "Frédéric Chopin", "name": "Ballade no. 4 in F minor" },
+  { "composer": "Frédéric Chopin", "name": "Piano Concerto no. 1 in E minor" },
+  { "composer": "Frédéric Chopin", "name": "Piano Concerto no. 2 in F minor" },
+  { "composer": "Robert Schumann", "name": "Piano Concerto in A minor" },
   {
     "composer": "Robert Schumann",
-    "piece": "Three Romances for oboe and piano"
+    "name": "Three Romances for oboe and piano"
   },
   {
     "composer": "Robert Schumann",
-    "piece": "Adagio and allegro in A-flat major for horn and piano"
+    "name": "Adagio and allegro in A-flat major for horn and piano"
   },
   {
     "composer": "Johannes Brahms",
-    "piece": "Piano Concerto no. 2 in B-flat major"
+    "name": "Piano Concerto no. 2 in B-flat major"
   },
   {
     "composer": "Johannes Brahms",
-    "piece": "Sonata for Violin and Piano no. 1 in G major"
+    "name": "Sonata for Violin and Piano no. 1 in G major"
   },
-  { "composer": "Johannes Brahms", "piece": "Sonatas for clarinet and piano" },
-  { "composer": "Johannes Brahms", "piece": "Intermezzi for Piano" },
-  { "composer": "Franz Liszt", "piece": "Hungarian Rhapsodies" },
-  { "composer": "Franz Liszt", "piece": "Piano Sonata in B minor" },
+  { "composer": "Johannes Brahms", "name": "Sonatas for clarinet and piano" },
+  { "composer": "Johannes Brahms", "name": "Intermezzi for Piano" },
+  { "composer": "Franz Liszt", "name": "Hungarian Rhapsodies" },
+  { "composer": "Franz Liszt", "name": "Piano Sonata in B minor" },
   {
     "composer": "Franz Liszt",
-    "piece": "Piano Concerto no. 1 in E-flat major"
+    "name": "Piano Concerto no. 1 in E-flat major"
   },
-  { "composer": "Edvard Grieg", "piece": "Piano Concerto in A minor" },
+  { "composer": "Edvard Grieg", "name": "Piano Concerto in A minor" },
   {
     "composer": "Pyotr Ilyich Tchaikovsky",
-    "piece": "Piano Concerto no. 1 in B-flat minor"
+    "name": "Piano Concerto no. 1 in B-flat minor"
   },
   {
     "composer": "Sergei Rachmaninoff",
-    "piece": "Piano Sonata no. 2 in B-flat minor by "
+    "name": "Piano Sonata no. 2 in B-flat minor by "
   },
-  { "composer": "Claude Debussy", "piece": "Clair de lune" },
-  { "composer": "Maurice Ravel", "piece": "Pavane for a Dead Princess" },
-  { "composer": "Dmitri Shostakovich", "piece": "Piano Concerto no. 1" },
-  { "composer": "Johann Pachelbel", "piece": "Canon in D major" },
+  { "composer": "Claude Debussy", "name": "Clair de lune" },
+  { "composer": "Maurice Ravel", "name": "Pavane for a Dead Princess" },
+  { "composer": "Dmitri Shostakovich", "name": "Piano Concerto no. 1" },
+  { "composer": "Johann Pachelbel", "name": "Canon in D major" },
   {
     "composer": "Camille Saint-Saëns",
-    "piece": "Introduction and Rondo Capriccioso"
+    "name": "Introduction and Rondo Capriccioso"
   }
 ]
