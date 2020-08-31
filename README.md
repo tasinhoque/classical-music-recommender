@@ -2,7 +2,7 @@
 
 This web app suggests random piano or violin pieces.
 
-## [Live Demo](https://classical-music-recommender.vercel.app/)
+### [Live Demo](https://classical-music-recommender.vercel.app/)
 
 ## Installation
 
