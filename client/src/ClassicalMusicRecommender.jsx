@@ -41,7 +41,7 @@ const ClassicalMusicRecommender = () => {
     try {
       console.log(processedName)
       const videoId = await axios.get(
-        `http://localhost:8080/api/${processedName}`
+        `https://classical-music-recommender.herokuapp.com/api/${processedName}`
       )
       console.log(processedName, videoId)
       setYouTubeVideoUrl('https://www.youtube.com/watch?v=' + videoId.data)
