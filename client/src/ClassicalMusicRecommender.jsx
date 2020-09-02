@@ -39,11 +39,9 @@ const ClassicalMusicRecommender = () => {
     const processedName = (name + ' by ' + composer).replace(/[ ]+/g, '+')
 
     try {
-      console.log(processedName)
       const videoId = await axios.get(
         `https://classical-music-recommender.herokuapp.com/api/${processedName}`
       )
-      console.log(processedName, videoId)
       setYouTubeVideoUrl('https://www.youtube.com/watch?v=' + videoId.data)
     } catch (error) {
       console.log(error)

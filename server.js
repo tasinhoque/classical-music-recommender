@@ -24,7 +24,6 @@ const baseUrl =
 app.get('/api/:searchTerm', async (req, res) => {
   try {
     const url = baseUrl + req.params.searchTerm + '&key=' + process.env.API_KEY
-    console.log(url)
     const { videoId } = (await axios.get(url)).data.items[0].id
     res.status(200).send(videoId)
   } catch (error) {
