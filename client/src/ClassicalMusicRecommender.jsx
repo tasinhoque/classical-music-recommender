@@ -12,7 +12,6 @@ import {
   CssBaseline,
   Divider,
 } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
 import ReactPlayer from 'react-player'
 import axios from 'axios'
 
@@ -22,11 +21,6 @@ import violinData from './data/violin.json'
 const PIANO = 0
 const VIOLIN = 1
 const instruments = [pianoData, violinData]
-const baseUrl =
-  'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q='
-const keyPartOfUrl = '&key=AIzaSyAgQhMo3AVgcMc8uMzjh7RyPblZKeM09wM'
-
-const useStyles = makeStyles(theme => ({}))
 
 const ClassicalMusicRecommender = () => {
   const [instrument, setInstrument] = useState(1)
@@ -44,13 +38,19 @@ const ClassicalMusicRecommender = () => {
     const { name, composer } = instruments[_instrument][random]
     const processedName = (name + ' by ' + composer).replace(/[ ]+/g, '+')
 
-    const fullUrl = baseUrl + processedName + keyPartOfUrl
-    const { videoId } = (await axios.get(fullUrl)).data.items[0].id
-    setYouTubeVideoUrl('https://www.youtube.com/watch?v=' + videoId)
+    try {
+      console.log(processedName)
+      const videoId = await axios.get(
+        `http://localhost:8080/api/${processedName}`
+      )
+      console.log(processedName, videoId)
+      setYouTubeVideoUrl('https://www.youtube.com/watch?v=' + videoId.data)
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   const piece = instruments[instrument][index]
-  const classes = useStyles()
 
   return (
     <>
@@ -59,7 +59,7 @@ const ClassicalMusicRecommender = () => {
         <Toolbar>
           <Grid container spacing={2}>
             <Grid item>
-              <img src='./logo.png' width='30' height='30' />
+              <img src='./logo.png' width='30' height='30' alt='logo' />
             </Grid>
             <Grid item>
               <Typography variant='h6'>Classical Music Recommender</Typography>
