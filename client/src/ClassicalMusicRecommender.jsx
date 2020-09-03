@@ -84,8 +84,8 @@ const ClassicalMusicRecommender = () => {
         {active && (
           <Box marginTop={4}>
             <Grid container justify='center'>
-              <Card>
-                <ReactPlayer url={youTubeVideoUrl} playing />
+              <Card style={{ width: '640px' }}>
+                <ReactPlayer url={youTubeVideoUrl} controls playing />
                 <CardContent>
                   <Typography variant='h6'>{piece.name}</Typography>
                   <Typography>by {piece.composer}</Typography>

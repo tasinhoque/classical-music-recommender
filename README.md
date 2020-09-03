@@ -15,7 +15,6 @@ Make sure [Node](https://nodejs.org/en/download/current/) is installed. Run the
 app in the development mode using the following commands:
 
 ```
-npm i
 npm run install-client
 npm run client
 ```
